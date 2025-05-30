@@ -1,0 +1,13 @@
+/* src/styles/glow.css */
+.rgb-glow {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: glowBG 10s ease infinite;
+    min-height: 100vh;
+}
+
+@keyframes glowBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
