@@ -1,11 +1,12 @@
+import React from 'react';
+import './App.css';
 
-// This file is auto-generated on 'sanity dev'
-// Modifications to this file is automatically discarded
-import {renderStudio} from "sanity"
-import studioConfig from "../../sanity.config.ts"
+function App() {
+  return (
+    <div className="App">
+      <h1>Welcome to Dobrich Schools Site</h1>
+    </div>
+  );
+}
 
-renderStudio(
-  document.getElementById("sanity"),
-  studioConfig,
-  {reactStrictMode: false, basePath: "/"}
-)
+export default App;
