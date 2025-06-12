@@ -1,0 +1,21 @@
+import './App.css';
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 3rem;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+
+  background: linear-gradient(270deg, red, green, blue);
+  background-size: 600% 600%;
+  animation: rgbShift 15s ease infinite;
+}
+
+@keyframes rgbShift {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
